@@ -1,6 +1,5 @@
 <template>
 	<div>
-		<Alert />
-		<Profile />
+		Profile Header
 	</div>
 </template>
