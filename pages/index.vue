@@ -1,5 +1,6 @@
 <template>
 	<div class="DefaultPage">
-		Main Page
+		<h1>Main Page</h1>
+		<img src="@/assets/01.jpg" alt="" />
 	</div>
 </template>
