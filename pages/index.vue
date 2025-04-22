@@ -1,6 +1,5 @@
 <template>
-	<div>
-		<Alert />
-		<Profile />
+	<div class="DefaultPage">
+		Main Page
 	</div>
 </template>
