@@ -7,5 +7,7 @@
 <script setup>
 	definePageMeta({
 		layout: 'custom',
+		// definindo o middleware que essa página vai usar
+		middleware: 'auth',
 	});
 </script>
