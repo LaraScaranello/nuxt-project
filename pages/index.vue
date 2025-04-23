@@ -6,7 +6,11 @@
 </template>
 
 <script setup>
+    // usando composables
 	// const { sayHello} = useUtils();
 	// sayHello();
-	const { $sayHello } = useNuxtApp();
+
+	// usando plugins
+	// const { $sayHello } = useNuxtApp();
+	// $sayHello('Lara');
 </script>
