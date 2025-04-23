@@ -1,8 +1,7 @@
 <script setup>
-	import { useCounterStore } from '@/stores/myStore';
-	const store = useCounterStore();
+	const response = await $fetch('/api/hello');
 
-	console.log('store', store);
+	console.log(response);
 </script>
 
 <template>
