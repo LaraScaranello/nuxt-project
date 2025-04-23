@@ -4,3 +4,8 @@
 		<img src="@/assets/01.jpg" alt="" />
 	</div>
 </template>
+
+<script setup>
+	const { sayHello} = useUtils();
+	sayHello();
+</script>
