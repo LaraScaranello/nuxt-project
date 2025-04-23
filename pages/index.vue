@@ -6,6 +6,7 @@
 </template>
 
 <script setup>
-	const { sayHello} = useUtils();
-	sayHello();
+	// const { sayHello} = useUtils();
+	// sayHello();
+	const { $sayHello } = useNuxtApp();
 </script>
